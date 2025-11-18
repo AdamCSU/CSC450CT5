@@ -31,6 +31,11 @@ int main() {
 	}
 	input.close();
 
+	string contentsReversed = "";
+	for (int i = contents.length() - 1; i >= 0; i--) {
+		contentsReversed = contentsReversed + contents[i];
+	}
+
 	}
 
 
