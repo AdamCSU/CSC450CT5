@@ -7,8 +7,17 @@
 //============================================================================
 
 #include <iostream>
+#include <fstream>
+#include <string>
 using namespace std;
 
 int main() {
+
+	string userInput;
+
+	cout << "Please enter text: ";
+	getLine(cin, userInput);
+
+
 
 }
