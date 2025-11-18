@@ -36,6 +36,10 @@ int main() {
 		contentsReversed = contentsReversed + contents[i];
 	}
 
+	ofstream reversedOutput("CSC450-mod5-reverse.txt");
+	reversedOutput << contentsReversed;
+	reversedOutput.close();
+
 	}
 
 
