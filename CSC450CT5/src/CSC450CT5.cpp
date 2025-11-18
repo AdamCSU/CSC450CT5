@@ -16,8 +16,19 @@ int main() {
 	string userInput;
 
 	cout << "Please enter text: ";
-	getLine(cin, userInput);
+	getline(cin, userInput);
+
+	ofstream output("CSC450_CT5_mod5.txt", ios::app);
+	output << userInput << endl;
+	output.close();
+
+	ifstream input("CSC450_CT5_mod5.txt");
+	string contents = "";
+	string line;
+
+
+	}
 
 
 
-}
+
