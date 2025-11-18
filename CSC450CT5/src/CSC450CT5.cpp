@@ -26,6 +26,10 @@ int main() {
 	string contents = "";
 	string line;
 
+	while (getline(input, line)) {
+		contents = contents + line + "\n";
+	}
+	input.close();
 
 	}
 
